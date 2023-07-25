@@ -4,8 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit bust</title>
+     <!-- favicon -->
+     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+     <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+       rel="stylesheet" />
+     <!-- icons CDN -->
+     <link
+       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+       rel="stylesheet" />
+     <!-- DaisyUi CDN-->
+     <link
+       href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+       rel="stylesheet"
+       type="text/css" />
+       <style>
+        *{
+    font-family: 'Lato', sans-serif;
+}
+       </style>
+     <script src="https://cdn.tailwindcss.com">
+
+     </script>
 </head>
 <body>
+     <!-- Header Section  -->
+     <header>
+        <!-- Navbar Section  -->
+        <nav class="container mx-auto px-20 ">
+          <div class="p-4 mt-4 lg:rounded-full bg-[#F85559] text-[#FFF]">
+            <div class="container flex justify-between h-12 md:h-12 mx-auto ">
+              <ul class="items-stretch hidden space-x-3 lg:flex">
+                <li class="flex">
+                  <a
+                    rel="noopener noreferrer"
+                    href="#"
+                    class="flex items-center px-2"
+                    >Home</a
+                  >
+                </li>
+                <li class="flex">
+                  <a
+                    rel="noopener noreferrer"
+                    href="#"
+                    class="flex items-center px-2"
+                    >About Us</a
+                  >
+                </li>
+                <li class="flex">
+                  <a
+                    rel="noopener noreferrer"
+                    href="#"
+                    class="flex items-center px-2"
+                    >Shop</a
+                  >
+                </li>
+                <li class="flex">
+                  <a
+                    rel="noopener noreferrer"
+                    href="#"
+                    class="flex items-center px-2"
+                    >All Fruits</a
+                  >
+                </li>
+              </ul>
+              <a
+                rel="noopener noreferrer"
+                href="#"
+                aria-label="Back to homepage"
+                class="flex items-center lg:-ml-8">
+                <img class="w-9" src="images/logo.png" alt="" />
+                <h2 class="ml-2 text-2xl font-bold">Fruit Burst</h2>
+              </a>
+              <div class="flex items-center md:space-x-4">
+                <div class="relative hidden lg:block">
+                  <input
+                    type="search"
+                    name="Search"
+                    placeholder="Search..."
+                    class="w-32 py-2 pl-10 text-sm rounded-full sm:w-auto focus:outline-none text-[#FFF]" />
+                  <span class="absolute right-3 top-1">
+                    <button
+                      type="submit"
+                      title="Search"
+                      class="p-1 focus:outline-none focus:ring">
+                      <i class="bx bx-search-alt-2 text-[#121212]"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+              <button title="Open menu" type="button" class="md:p-4 lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-[#FFF]">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+
+      </header>
     
 </body>
 </html>
